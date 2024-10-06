@@ -6,10 +6,10 @@ maria.manolache1203
  
 ### Descriere:
  
-	Problema are ca scop implementarea unei platforme de social media cu
+Problema are ca scop implementarea unei platforme de social media cu
 ajutorul grafurilor si structurilor de date arborescente.
  
-	Functiile de baza pentru prelucrarea listelor utilizate in program sunt:
+Functiile de baza pentru prelucrarea listelor utilizate in program sunt:
 * dll_create() - aloca o lista si initializeaza campurile acesteia
 * dll_add_nth_node() - adauga un nod in lista pe pozitia n. Se aloca memorie
 si sunt create legaturile in functie de locul in care este adaugat nodul.
@@ -17,7 +17,7 @@ si sunt create legaturile in functie de locul in care este adaugat nodul.
 legaturile fiind desfacute
 * dll_free() - dezaloca memoria ocupata de lista
  
-	Functiile de baza pentru prelucrarea cozii utilizate in program sunt:
+Functiile de baza pentru prelucrarea cozii utilizate in program sunt:
 * q_create() - aloca si initializeaza o coada
 * q_get_size() - intoarce numarul de elemente din coada
 * q_is_empty() - verifica daca este goala coada
@@ -26,7 +26,7 @@ legaturile fiind desfacute
 * q_clear() - elimina toate elementele din coada primita ca parametru
 * q_free() - elibereaza memoria
  
-	Functiile de baza pentru prelucrarea grafurilor utilizate in program sunt:
+Functiile de baza pentru prelucrarea grafurilor utilizate in program sunt:
 * lg_create() - aloca si initializeza graful
 * lg_add_edge() - adauga o muchie intre nodurile primite ca parametri
 * lg_has_edge() - returneaza 1 daca exista muchie intre cele doua noduri, 0
@@ -37,7 +37,7 @@ in caz contrar
  
 ### _Task-ul 1 - Retea de prietenie_
  
-	Functia 'handle_input_friends()' separa comenzile si apeleaza functiile
+Functia 'handle_input_friends()' separa comenzile si apeleaza functiile
 corespunzatoare.
  
 - in cazul in care primul cuvant este 'add', este apelata functia
@@ -77,7 +77,7 @@ numar de prieteni mai mare decat max_friends, este actualizat indexul.
  
 ### _Task-ul 2 - Postari si Reposturi_
  
-	Functia 'handle_input_posts()' separa comenzile si apeleaza functiile
+Functia 'handle_input_posts()' separa comenzile si apeleaza functiile
 corespunzatoare.
  
 - in cazul in care primul cuvant este 'create', este apelata functia
@@ -126,7 +126,7 @@ postarii/repostarii unui utilizator cu ajutorul functiilor
  
 ### _Task-ul 3 - Social Media_
  
-	Functia 'handle_input_posts()' separa comenzile si apeleaza functiile
+Functia 'handle_input_posts()' separa comenzile si apeleaza functiile
 corespunzatoare.
  
 - in cazul in care primul cuvant este 'feed', este apelata functia 'feed()'.
